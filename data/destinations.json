@@ -1,0 +1,182 @@
+[
+  {
+    "city": "Calgary",
+    "from": "Saskatoon",
+    "distanceKm": 620,
+    "flights": [
+      { "airline": "WestJet", "estCost": 180 },
+      { "airline": "Air Canada", "estCost": 220 }
+    ],
+    "bus": { "estCost": 120 },
+    "drive": { "fuelPricePerL": 1.60, "carLper100km": 8.0, "rentalPerDay": 55 },
+    "stay": { "tier": "budget", "perNight": 70 },
+    "food": { "perDay": 30 },
+    "activities": [
+      { "name": "Prince's Island Park", "cost": 0, "type": "park" },
+      { "name": "Stephen Avenue Walk", "cost": 0, "type": "walk" },
+      { "name": "Glenbow Museum", "cost": 18, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Edmonton",
+    "from": "Saskatoon",
+    "distanceKm": 520,
+    "flights": [
+      { "airline": "WestJet", "estCost": 160 },
+      { "airline": "Air Canada", "estCost": 210 }
+    ],
+    "bus": { "estCost": 110 },
+    "drive": { "fuelPricePerL": 1.60, "carLper100km": 8.0, "rentalPerDay": 55 },
+    "stay": { "tier": "budget", "perNight": 65 },
+    "food": { "perDay": 30 },
+    "activities": [
+      { "name": "River Valley Trails", "cost": 0, "type": "park" },
+      { "name": "Legislature Grounds", "cost": 0, "type": "walk" },
+      { "name": "Art Gallery of Alberta", "cost": 14, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Winnipeg",
+    "from": "Saskatoon",
+    "distanceKm": 780,
+    "flights": [
+      { "airline": "WestJet", "estCost": 190 },
+      { "airline": "Air Canada", "estCost": 230 }
+    ],
+    "bus": { "estCost": 140 },
+    "drive": { "fuelPricePerL": 1.60, "carLper100km": 8.2, "rentalPerDay": 55 },
+    "stay": { "tier": "budget", "perNight": 70 },
+    "food": { "perDay": 30 },
+    "activities": [
+      { "name": "The Forks", "cost": 0, "type": "walk" },
+      { "name": "Assiniboine Park", "cost": 0, "type": "park" },
+      { "name": "Manitoba Museum", "cost": 14, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Regina",
+    "from": "Saskatoon",
+    "distanceKm": 500,
+    "flights": [
+      { "airline": "WestJet", "estCost": 150 },
+      { "airline": "Air Canada", "estCost": 200 }
+    ],
+    "bus": { "estCost": 60 },
+    "drive": { "fuelPricePerL": 1.60, "carLper100km": 7.8, "rentalPerDay": 50 },
+    "stay": { "tier": "budget", "perNight": 60 },
+    "food": { "perDay": 28 },
+    "activities": [
+      { "name": "Wascana Centre", "cost": 0, "type": "park" },
+      { "name": "Sask Legislative Building", "cost": 0, "type": "walk" },
+      { "name": "RCMP Heritage Centre", "cost": 15, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Banff",
+    "from": "Saskatoon",
+    "distanceKm": 1380,
+    "flights": [
+      { "airline": "WestJet", "estCost": 240 },
+      { "airline": "Air Canada", "estCost": 260 }
+    ],
+    "bus": { "estCost": 150 },
+    "drive": { "fuelPricePerL": 1.60, "carLper100km": 8.5, "rentalPerDay": 65 },
+    "stay": { "tier": "budget", "perNight": 85 },
+    "food": { "perDay": 35 },
+    "activities": [
+      { "name": "Banff Avenue", "cost": 0, "type": "walk" },
+      { "name": "Bow Falls", "cost": 0, "type": "viewpoint" },
+      { "name": "Cave and Basin", "cost": 8, "type": "site" }
+    ]
+  },
+  {
+    "city": "Vancouver",
+    "from": "Saskatoon",
+    "distanceKm": 3200,
+    "flights": [
+      { "airline": "WestJet", "estCost": 260 },
+      { "airline": "Air Canada", "estCost": 290 }
+    ],
+    "bus": { "estCost": 230 },
+    "drive": { "fuelPricePerL": 1.70, "carLper100km": 8.8, "rentalPerDay": 70 },
+    "stay": { "tier": "budget", "perNight": 95 },
+    "food": { "perDay": 38 },
+    "activities": [
+      { "name": "Seawall (Stanley Park)", "cost": 0, "type": "walk" },
+      { "name": "Granville Island (browse)", "cost": 0, "type": "market" },
+      { "name": "Galleries/Museums free days", "cost": 0, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Victoria",
+    "from": "Saskatoon",
+    "distanceKm": 3500,
+    "flights": [
+      { "airline": "WestJet", "estCost": 290 },
+      { "airline": "Air Canada", "estCost": 320 }
+    ],
+    "bus": { "estCost": 260 },
+    "drive": { "fuelPricePerL": 1.70, "carLper100km": 8.8, "rentalPerDay": 70 },
+    "stay": { "tier": "budget", "perNight": 95 },
+    "food": { "perDay": 38 },
+    "activities": [
+      { "name": "Inner Harbour Walk", "cost": 0, "type": "walk" },
+      { "name": "Beacon Hill Park", "cost": 0, "type": "park" },
+      { "name": "Parliament Buildings (outside)", "cost": 0, "type": "site" }
+    ]
+  },
+  {
+    "city": "Toronto",
+    "from": "Saskatoon",
+    "distanceKm": 5100,
+    "flights": [
+      { "airline": "WestJet", "estCost": 300 },
+      { "airline": "Air Canada", "estCost": 320 }
+    ],
+    "bus": { "estCost": 280 },
+    "drive": { "fuelPricePerL": 1.65, "carLper100km": 8.5, "rentalPerDay": 75 },
+    "stay": { "tier": "budget", "perNight": 100 },
+    "food": { "perDay": 40 },
+    "activities": [
+      { "name": "Harbourfront Walk", "cost": 0, "type": "walk" },
+      { "name": "Kensington Market", "cost": 0, "type": "market" },
+      { "name": "AGO free night", "cost": 0, "type": "museum" }
+    ]
+  },
+  {
+    "city": "Ottawa",
+    "from": "Saskatoon",
+    "distanceKm": 4800,
+    "flights": [
+      { "airline": "WestJet", "estCost": 310 },
+      { "airline": "Air Canada", "estCost": 330 }
+    ],
+    "bus": { "estCost": 270 },
+    "drive": { "fuelPricePerL": 1.65, "carLper100km": 8.3, "rentalPerDay": 70 },
+    "stay": { "tier": "budget", "perNight": 95 },
+    "food": { "perDay": 38 },
+    "activities": [
+      { "name": "Parliament Hill (outside)", "cost": 0, "type": "site" },
+      { "name": "Rideau Canal Walk", "cost": 0, "type": "walk" },
+      { "name": "ByWard Market (browse)", "cost": 0, "type": "market" }
+    ]
+  },
+  {
+    "city": "Montreal",
+    "from": "Saskatoon",
+    "distanceKm": 5200,
+    "flights": [
+      { "airline": "WestJet", "estCost": 320 },
+      { "airline": "Air Canada", "estCost": 340 }
+    ],
+    "bus": { "estCost": 290 },
+    "drive": { "fuelPricePerL": 1.65, "carLper100km": 8.6, "rentalPerDay": 75 },
+    "stay": { "tier": "budget", "perNight": 95 },
+    "food": { "perDay": 38 },
+    "activities": [
+      { "name": "Old Montreal Walk", "cost": 0, "type": "walk" },
+      { "name": "Mount Royal Lookout", "cost": 0, "type": "viewpoint" },
+      { "name": "Museum free evening", "cost": 0, "type": "museum" }
+    ]
+  }
+]
